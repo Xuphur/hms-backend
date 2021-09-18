@@ -1,0 +1,128 @@
+
+// const VehicleSchema = mongoose.Schema({
+//               contractId: {type: String},
+//              reg: {type: String, required: 'Kindly enter the registration number'},
+//              make: {type: String},
+//              model: {type: String}, 
+//              year: {type: String},
+//              colour: {type: String},
+//              status: {type: String},
+//             meterOut: {type: String},
+//              meterIn: {type: String},
+//              driveZone: {type: String},
+//              destination: {type: String},
+//              actualPrice: {type: String},
+//  });
+//  module.exports = mongoose.model('Vehicle', VehicleSchema);
+
+//  const HouseSchema = mongoose.Schema({
+//   contractId: {type: String},
+//     address: {
+//       floor: {type: String},
+//       number: {type: String},
+//       street: {type: String},
+//       sector: {type: String},
+//       city: {type: String},
+//       province : {type: String},
+//       zipcode : {type: String},
+//               },
+//     area : {type: String},
+//     status: {type: String},
+//     actualPrice: {type: String},
+// });
+// module.exports = mongoose.model('House', HouseSchema);
+
+// const ItemSchema = mongoose.Schema({
+//   contractId: {type: String},
+//   title: {type: String},
+//   make: {type: String},
+//   model: {type: String},
+//   year: {type: String},
+//   discription: {type: String},
+//   actualPrice: {type: String},
+// });
+// module.exports = mongoose.model('Item', ItemSchema);
+
+// const RecieptSchema = mongoose.Schema({
+//   contractId: {type: String},
+//     number: {type: String},
+//     date: {type: String},
+//     ammount: {type: String},
+
+// });
+// module.exports = mongoose.model('Reciept', RecieptSchema);
+
+// const OwnerSchema = mongoose.Schema({
+//   contractId: {type: String},
+//     name: {type: String},
+//     fatherName: {type: String},
+//     address: {
+//     number: {type: String},
+//     street: {type: String},
+//     sector: {type: String},
+//     city: {type: String},
+//     province : {type: String},
+//     zipcode : {type: String},
+//     },
+//     cnic: {type: String},
+//     mobile1: {type: String},
+//     mobile2: {type: String},
+// });
+// module.exports = mongoose.model('Owner', OwnerSchema);
+
+// const ContractSchema = mongoose.Schema({
+//   contractId: {type: String},
+//   title: {type: String},
+//     contractDate: {type:  Date, default: Date.now},
+//     startDate: {type:  Date, default: Date.now},
+//     duration: {type: String},
+//     expiryDate: {type: String},
+//     reaccurance: {type: String},
+//     issuetime: {type: String},
+//     incrementPercentage: {type: String},
+//     incrementSchedule: {type: String},
+//     status: {type: String},
+//     assetType: {type: String},
+//     assetValue: {type: String},
+//     paymentMethod: {type: String},
+//     priceQuoted: {type: String},
+//     downPayment: {type: String},
+//     avdancePayment: {type: String},
+//     cancelation: {type: Date},
+// });
+// module.exports = mongoose.model('Contract', ContractSchema);
+
+// const CustomerSchema = mongoose.Schema({
+//   name: {type:  String},
+//   fatherName: {type:  String},
+//   address: {
+//       number: {type: String},
+//       street: {type: String},
+//       sector: {type: String},
+//       city: {type: String},
+//       province : {type: String},
+//       zipcode : {type: String},
+//   },
+//   cnic: {type:  String},
+//   license: {type:  String},
+//   mobile1: {type:  String},
+//   mobile2: {type:  String},
+//   vehicleid: {type:  String},
+//   contractId: {type:  String},
+//   gurantor: {
+//       name: {type:  String},
+//       mobile: {type:  String},
+//       father: {type:  String},
+//       cnic: {type:  String},
+//       address: {
+//           number: {type: String},
+//           street: {type: String},
+//           sector: {type: String},
+//           city: {type: String},
+//           province : {type: String},
+//           zipcode : {type: String},
+//       },
+//   },
+// });
+
+// module.exports = mongoose.model('Customer', CustomerSchema);
